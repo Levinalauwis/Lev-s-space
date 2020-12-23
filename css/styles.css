@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400&display=swap');
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    margin-bottom: 0px;
+    padding-top: 250px;
+}
+
+h2{
+    color: black;
+    font-size: 50px; 
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    margin-top: 2px;
+}
+
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top:  150px;
+}
+
+.link {
+    color: black;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top:  150px;
+    font-family: 'Gaegu', cursive;
+    text-align:center;
+
+}
+
+a{
+    color:black;
+    font-size:45px;
+    margin: 75px;
+}
+
+html
+{background-color: white;}
+
+.FAQ {
+    color:black;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    padding-top:  250px;
+    
+    h1{ 
+        font-size: ;100px;
+    }
+}
+
+.Angelus {
+    color:black;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    padding-top:  250px;
+
+}
+
+
+.horizontal-list{
+    display:inline;
+}
+<
