@@ -6,7 +6,7 @@ h1 {
     text-align: center;
     font-family: 'Gaegu', cursive;
     margin-bottom: 0px;
-    padding-top: 250px;
+    padding-top: 150px;
 }
 
 h2{
@@ -25,40 +25,11 @@ img{
         padding-top:  150px;
 }
 
-.link {
-    color: black;
-    font-size: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top:  150px;
-    font-family: 'Gaegu', cursive;
-    text-align:center;
 
-}
 
 a{
     color:black;
     font-size:45px;
-    margin: 75px;
-}
-
-html
-{background-color: white;}
-
-.FAQ {
-    color:black;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    font-family: 'Gaegu', cursive;
-    text-align: center;
-    padding-top:  250px;
-    
-    h1{ 
-        font-size: ;100px;
-    }
 }
 
 .Angelus {
@@ -73,8 +44,94 @@ html
 
 }
 
-
-.horizontal-list{
-    display:inline;
+.expressyourself {
+    margin-left: 125px;
+    font-family: 'Gaegu', cursive;
+    font-size: 50px;
+    margin-top: 300px;
 }
-<
+
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+  }
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.nav-bar{
+    font-family: 'Gaegu', cursive;
+    text-decoration: none;
+    padding: 15px;
+    color:black;
+    font-size: 15px;
+}
+
+.clickthislinktoview{
+    font-size: 20px;
+    margin-left: 125px;
+    width: 50%;
+    padding-top:  15px;
+    font-family: 'Gaegu', cursive;
+    text-align:left;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+    margin-left: 125px;
+    width: 50%;
+    padding-top:  5px;
+    font-family: 'Gaegu', cursive;
+    text-align:left;
+    margin-bottom: 150px;
+}
+
+.link:hover{font-size:  30px}
+
+.joinourfamily {
+    color:black;
+    margin-right: 125px;
+    font-family: 'Gaegu', cursive;
+    font-size: 50px;
+    margin-top: 375px;
+    text-align: right;
+} 
+
+.becomealevsspaceartist{ 
+    font-size: 20px;
+    margin-right: 125px;
+    padding-top:  5px;
+    font-family: 'Gaegu', cursive;
+    text-align:right;
+}
+
+.link2 {
+    color: black;
+    font-size: 20px;
+    margin-right: 125px;
+    padding-top:  5px;
+    font-family: 'Gaegu', cursive;
+    text-align:right;
+    margin-bottom: 300px;
+}
+
+.link2:hover{font-size:  30px}
+
+
+body { 
+    background-image: url(backgroundimage1.jpg), url(backgroundimage2.JPG); 
+    background-position: top, bottom;
+    background-repeat: no-repeat,no-repeat;
+}
+
+
+
+
+
