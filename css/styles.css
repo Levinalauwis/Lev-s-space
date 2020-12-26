@@ -6,10 +6,11 @@ h1 {
     text-align: center;
     font-family: 'Gaegu', cursive;
     margin-bottom: 0px;
-    padding-top: 150px;
+    margin-top: 70px;
+    padding-top: 200px;
 }
 
-h2{
+h2 {
     color: black;
     font-size: 50px; 
     text-align: center;
@@ -17,22 +18,15 @@ h2{
     margin-top: 2px;
 }
 
-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        padding-top:  150px;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top:  150px;
 }
 
-
-
-a{
-    color:black;
-    font-size:45px;
-}
-
-.Angelus {
+.angelus {
     color:black;
     font-size: 30px;
     margin-left: auto;
@@ -44,18 +38,13 @@ a{
 
 }
 
-.expressyourself {
-    margin-left: 125px;
-    font-family: 'Gaegu', cursive;
-    font-size: 50px;
-    margin-top: 300px;
-}
-
-  a {
+a {
     text-decoration: none;
     display: block;
     padding: 2px;
-  }
+    color:black;
+    font-size:45px;
+}
 
 .container2 {
     display: flex;
@@ -65,73 +54,210 @@ a{
     margin-top: 0px;
 }
 
-.nav-bar{
+.container2a{
+    color:white;
     font-family: 'Gaegu', cursive;
     text-decoration: none;
-    padding: 15px;
-    color:black;
-    font-size: 15px;
+    padding: 55px 30px 20px 10px;
+    font-size: 30px;
 }
 
-.clickthislinktoview{
-    font-size: 20px;
-    margin-left: 125px;
+.container2a:hover{
+    font-size: 35px
+}
+
+.nav-bar {
+    font-family: 'Gaegu', cursive;
+    text-decoration: none;
+    padding: 55px 30px 20px 10px;
+    color:black;
+    font-size: 30px;
+}
+
+.expressyourself {
+    margin-left: 175px;
+    font-family: 'Gaegu', cursive;
+    font-size: 75px;
+    margin-top: 725px;
+    color: white;
+}
+
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
+
+.clickthislinktoview {
+    font-size: 25px;
+    margin-left: 175px;
     width: 50%;
     padding-top:  15px;
     font-family: 'Gaegu', cursive;
     text-align:left;
+    color: white;
 }
 
 .link {
-    color: black;
-    font-size: 20px;
-    margin-left: 125px;
+    color: white;
+    font-size: 27px;
+    margin-left: 175px;
     width: 50%;
     padding-top:  5px;
     font-family: 'Gaegu', cursive;
     text-align:left;
-    margin-bottom: 150px;
+    margin-bottom: 600px;
 }
 
-.link:hover{font-size:  30px}
+.link:hover {
+    font-size: 35px
+}
+
+.nav-bar:hover{
+    font-size: 35px;
+}
 
 .joinourfamily {
     color:black;
-    margin-right: 125px;
+    margin-right: 175px;
     font-family: 'Gaegu', cursive;
-    font-size: 50px;
-    margin-top: 375px;
+    font-size: 75px;
+    margin-top: 100px;
     text-align: right;
+    padding-bottom: 0px;
 } 
 
-.becomealevsspaceartist{ 
-    font-size: 20px;
-    margin-right: 125px;
-    padding-top:  5px;
+.pad {
+    padding-bottom: 80px;
+}
+
+.becomealevsspaceartist { 
+    font-size: 35px;
+    margin-right: 175px;
     font-family: 'Gaegu', cursive;
-    text-align:right;
+    text-align: right;
 }
 
 .link2 {
     color: black;
-    font-size: 20px;
-    margin-right: 125px;
-    padding-top:  5px;
+    font-size: 25px;
+    margin-right: 175px;
     font-family: 'Gaegu', cursive;
-    text-align:right;
+    text-align: right;
     margin-bottom: 300px;
 }
 
-.link2:hover{font-size:  30px}
-
-
-body { 
-    background-image: url(backgroundimage1.jpg), url(backgroundimage2.JPG); 
-    background-position: top, bottom;
-    background-repeat: no-repeat,no-repeat;
+.link2:hover {
+    font-size: 30px
 }
 
+body {  
+    background-image: 
+    url(img/bg.jpg),
+    url(img/bg2.jpg),
+    url(img/bg3.jpg); 
+    
+    background-position: 
+    0% 0,
+    center,
+    100% 100%;
 
+    background-repeat: no-repeat;
 
+    background-size: 
+    1700px 1000px,
+    2100px 1200px,
+    1700px 970px;
+} 
+
+.container3 {
+    flex-direction:row;
+    display: flex; 
+}
+
+.container4 {
+    flex-direction:row;
+    display: flex;
+}
+
+.container5 {
+    flex-direction:row;
+    display: flex
+}
+
+.container6{
+    flex-direction: row;
+    display:flex
+}
+
+.container7{
+    flex-direction: row;
+    display:flex
+}
+
+.container8{
+    flex-direction:row;
+    display: flex;
+}
+
+.container9{
+    flex-direction:row;
+    display: flex;
+}
+
+.container10{
+    flex-direction:row;
+    display: flex;
+}
+
+.container11{
+    flex-direction:row;
+    display:flex
+}
+
+.container12{
+    flex-direction:row;
+    display:flex
+}
+
+.container13{
+    flex-direction:row;
+    display:flex
+}
+
+.container14{
+    flex-direction:row;
+    display:flex
+}
+
+.contact-us {
+    color: white;
+    font-family: 'Gaegu', cursive;
+    font-size: 80px;
+    text-align: left;
+    padding: 50px;
+    margin-left: 200px;
+}
+
+.insta {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gaegu', cursive;
+    font-size: 30px;
+}
+
+.insta:hover {
+    color: gray;
+}
+
+.faq {
+    color: black;
+    font-family: 'Gaegu', cursive;
+    font-size: 50px;
+    text-align: right;
+    margin-top: 0;
+    padding-top: 0;
+    margin-right: 200px;
+
+}
 
 
